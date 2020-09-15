@@ -33,9 +33,8 @@ api.nop(
 ------------------------------
 
 1. Установите haxelib себе на локальную машину, чтобы вы могли использовать библиотеки Haxe.
-2. Установите loader и regru себе на локальную машину, глобально, используя cmd:
+2. Установите regru себе на локальную машину, глобально, используя cmd:
 ```
-haxelib git loader https://github.com/VolkovRA/HaxeLoader master
 haxelib git regru https://github.com/VolkovRA/HaxeREGRU master
 ```
 Синтаксис команды:
@@ -45,10 +44,9 @@ haxelib git minject https://github.com/massiveinteractive/minject.git         # 
 haxelib git minject git@github.com:massiveinteractive/minject.git             # Use SSH git path.
 haxelib git minject git@github.com:massiveinteractive/minject.git v2          # Checkout branch or tag `v2`.
 ```
-3. Добавьте библиотеки loader и regru в ваш Haxe проект.
+3. Добавьте библиотеку regru в ваш Haxe проект.
 
 Дополнительная информация:
  * [Документация REG.RU](https://www.reg.ru/support/help/api2 "Документация на REG.API 2")
  * [Документация Haxelib](https://lib.haxe.org/documentation/using-haxelib/ "Using Haxelib")
  * [Документация компилятора Haxe](https://haxe.org/manual/compiler-usage-hxml.html "Configure compile.hxml")
-
