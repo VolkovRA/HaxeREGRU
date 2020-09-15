@@ -1,0 +1,14 @@
+{
+    "name": "regru",
+    "url": "https://github.com/VolkovRA/HaxeREGRU/blob/master/README.md",
+    "license": "MIT",
+    "tags": ["regru", "reg.ru", "api", "nodejs", "hosting"],
+    "description": "Haxe JavaScript client for REGRU API",
+    "version": "1.0.0",
+    "releasenote": "Release",
+    "contributors": ["VolkovRA"],
+    "classPath": "lib",
+    "dependencies": {
+        "loader": "https://github.com/VolkovRA/HaxeLoader.git"
+    }
+}
